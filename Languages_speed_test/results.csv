@@ -1,0 +1,8 @@
+C23|11.956|456569|24994|GMP product tree
+C++23|11.253|456569|24994|GMP product tree
+Python|78.397|456569|24994|math.factorial in CPython C core
+Ruby|25.343|456569|24994|Integer product tree
+Perl|345.701|456569|24994|packed native chunks + BigInt tree (Math::BigInt::GMP, 29140 chunks)
+Fortran|12.000|456569|24994|GMP product tree via ISO_C_BINDING
+Java|141.525|456569|24994|BigInteger product tree
+CUDA+CPU|10.310|456569|24994|GPU pair products 0.063 ms, CPU GMP reduction
