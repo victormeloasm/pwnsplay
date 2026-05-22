@@ -1,0 +1,13 @@
+C23|10.638|456569|24994|GMP product tree
+C++23|11.189|456569|24994|GMP product tree
+Python|84.428|456569|24994|math.factorial in CPython C core
+Ruby|27.456|456569|24994|Integer product tree
+Perl|394.869|456569|24994|packed native chunks + BigInt tree (Math::BigInt::GMP, 29140 chunks)
+Fortran|10.000|456569|24994|GMP product tree via ISO_C_BINDING
+Java|140.225|456569|24994|BigInteger product tree
+Clojure|152.241|456569|24994|BigInteger packed native chunks tree
+FASM|10.856|456569|24994|FASM argv/ABI driver + shared C/GMP product tree
+COBOL|10.760|456569|24994|COBOL driver + shared C/GMP product tree
+Pascal|10.698|456569|24994|Free Pascal driver + shared C/GMP product tree
+BASIC|10.663|456569|24994|FreeBASIC driver + shared C/GMP product tree
+CUDA+CPU|11.013|456569|24994|GPU pair products 0.061 ms, CPU GMP reduction
