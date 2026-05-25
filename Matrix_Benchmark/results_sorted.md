@@ -1,0 +1,21 @@
+# Matrix multiplication benchmark results
+
+| Rank | Name | Reported language | Time ms | Checksum | Status |
+|---:|---|---|---:|---|---|
+| 1 | CUDA cuBLAS | CUDA cuBLAS DGEMM | 3.003136 | `4.8079999999988008` | OK |
+| 2 | Rust | Rust OpenBLAS FFI | 3.746280 | `4.80799999999955308` | OK |
+| 3 | Python NumPy ecosystem | Python NumPy ecosystem | 5.583760 | `4.8079999999994811` | OK |
+| 4 | Fortran | Fortran BLAS | 6.230377 | `4.8079999999989615E+00` | OK |
+| 5 | C23 | C23 OpenBLAS | 6.496955 | `4.8079999999989367` | OK |
+| 6 | C++23 | C++23 OpenBLAS | 6.645070 | `4.8079999999989367` | OK |
+| 7 | Zig | Zig OpenBLAS FFI | 7.188442 | `4.80799999999955300` | OK |
+| 8 | FreeBASIC | FreeBASIC OpenBLAS | 7.412195 | `4.807999999999553` | OK |
+| 9 | Pascal | Pascal OpenBLAS | 10.000000 | `4.80799999999946070` | OK |
+| 10 | Ruby Numo ecosystem | Ruby Numo Linalg ecosystem | 13.410089 | `4.8079999999994723` | OK |
+| 11 | COBOL OpenBLAS FFI | COBOL OpenBLAS FFI | 22.948178 | `4.807999999998674` | OK |
+| 12 | Perl PDL ecosystem | Perl PDL ecosystem | 414.993048 | `4.8079999999998453` | OK |
+| 13 | Java | Java pure | 654.445562 | `4.8079999999998450` | OK |
+| 14 | FASM | FASM pure | 738.965314 | `4.8079999999998453` | OK |
+| 15 | TypeScript Node | TypeScript compiled to Node pure | 897.703463 | `4.8079999999998453` | OK |
+| 16 | JavaScript Node | JavaScript Node pure | 908.713824 | `4.8079999999998453` | OK |
+| 17 | Clojure JVM | Clojure JVM arrays | 3580.356026 | `4.8079999999998450` | OK |
